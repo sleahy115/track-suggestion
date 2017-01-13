@@ -36,3 +36,44 @@ height: 130px;
 #no-artist{
   display: none;
 }
+#city-button{
+  display: none;
+}
+#city{
+  display: none;
+}
+#town{
+  display: none;
+}
+#story-construct{
+  display: none;
+}
+#build-button{
+  display: none;
+}
+#build{
+  display: none;
+}
+#decorate{
+  display: none
+}
+#story-tinker{
+  display: none;
+}
+#interactive-button{
+  display: none;
+}
+#tinker{
+  display: none;
+}
+#no-tinker{
+  display: none
+}
+#story-conclusion{
+  display: none;
+}
+#bed-button{
+  display: none;
+}
+#story-end{display: none;
+}

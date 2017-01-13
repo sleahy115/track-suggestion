@@ -8,8 +8,49 @@ $(document).ready(function() {
   });
   $("#paint-y").click(function(){
     $("#artist").toggle();
+    $("#story-fork").toggle();
+    $("#city-button").toggle();
   });
-  $("paint-n").click(function(){
+  $("#paint-n").click(function(){
     $("#no-artist").toggle();
+    $("#story-fork").toggle();
+    $("#city-button").toggle();
+  });
+  $("#city-y").click(function(){
+    $("#city").toggle();
+    $("#story-construct").toggle();
+    $("#build-button").toggle();
+
+  });
+  $("#town-y").click(function(){
+    $("#town").toggle();
+    $("#story-construct").toggle();
+    $("#build-button").toggle();
+  });
+  $("#design-y").click(function(){
+    $("decorate").toggle();
+    $("#story-tinker").toggle();
+    $("#interactive-button").toggle();
+  });
+  $("#crew-y").click(function(){
+    $("build").toggle();
+    $("#story-tinker").toggle();
+    $("#interactive-button").toggle();
+  });
+  $("#fixed").click(function(){
+    $("#no-tinker").toggle();
+    $("#story-conclusion").toggle();
+    $("#bed-button").toggle();
+  });
+  $("#interact").click(function(){
+    $("#tinker").toggle();
+    $("#story-conclusion").toggle();
+    $("#bed-button").toggle();
+  });
+  $("#bed").click(function(){
+    $("#story-end").toggle();
+  });
+  $("#mobile").click(function(){
+    $("#story-end").toggle();
   });
 });
