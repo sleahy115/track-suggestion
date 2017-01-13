@@ -22,3 +22,10 @@ height: 130px;
 .design{
   display: none;
 }
+#questions {
+  font-family: monospace;
+  color:  #009900;
+}
+.question{
+  font-size: 18px;
+}
