@@ -1,0 +1,12 @@
+.jumbotron{
+background-image: url(http://i.huffpost.com/gen/4393678/images/n-THE-MATRIX-628x314.jpg);
+text-align: center;
+color: white;
+font-size: 40px;
+font-family: monospace;
+text-shadow: 3px 3px black;
+height: 130px;
+}
+.well {
+  font-family: monospace;
+}

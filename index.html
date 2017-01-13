@@ -9,15 +9,46 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-  <div class ="jumbotron">Which programming language should I choose?</div>
+  <div class ="jumbotron">Which programming language should I choose?
+  </div>
   <div class ="container">
-  <p> There are many different programming langauages. They each have thier own purpose's and a suited to different tasks. The first questions a prospective programmer usually asks is which language is best? Well there is no "best" language but there is a language that will be "best" for you. Answer the following questions for a suggestion on which language matches you.</p>
+  <p class="well"> There are many different programming langauages. They each have thier own purpose's and a suited to different tasks. The first questions a prospective programmer usually asks is which language is best? Well there is no "best" language but there is a language that will be "best" for you. Answer the following questions for a suggestion on which language matches you.</p>
   <div id="questions">
-    <p id ="question1">Would you describe yourself as more artistic or more logical?</p>
-    <p id ="question2">Would you perfer to work for a small start up, or for an established large company?</p>
-    <p id ="question3">Would you perfer to crate wepages that are very interavtive for the user, or that have more fixed content></p>
-    <p id ="question4">Would you perfer to spend your time making something look great, or creating a framwork for it?</p>
-    <p id ="question5">Would you like to learn how to create mobile apps?</p>
+    <p id ="question1">1.Would you describe yourself as more artistic or more logical?</p>
+      <label class="checkbox-inline">
+        <input type="checkbox" id="artistic" value="artistic"> Artistic
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" id="logical" value="logical"> Logical
+      </label>
+    <p id ="question2">2.Would you perfer to work for a small start up, or for an established large company?</p>
+    <label class="checkbox-inline">
+      <input type="checkbox" id="small" value="small"> Small start-up
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" id="large" value="large"> Large established corporation
+    </label>
+    <p id ="question3">3.Would you perfer to crate wepages that are very interactive for the user, or that have more fixed content></p>
+    <label class="checkbox-inline">
+      <input type="checkbox" id="interactive" value="interactive">Interactive
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" id="fixed" value="fixed"> Fixed content
+    </label>
+    <p id ="question4">4.Would you perfer to spend your time making something look great, or creating a framwork for it?</p>
+    <label class="checkbox-inline">
+      <input type="checkbox" id="look" value="look"> Look great
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" id="framework" value="framework"> Framework
+    </label>
+    <p id ="question5">5.Would you like to learn how to create mobile apps?</p>
+    <label class="checkbox-inline">
+      <input type="checkbox" id="yes" value="yes"> Yes
+    </label>
+    <label class="checkbox-inline">
+      <input type="checkbox" id="no" value="no"> No
+    </label>
   </div>
   </body>
 </html>
