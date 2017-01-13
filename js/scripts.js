@@ -53,4 +53,8 @@ $(document).ready(function() {
   $("#mobile").click(function(){
     $("#story-end").toggle();
   });
+  $("#output").text(result);
+    if
+
+    }
 });
