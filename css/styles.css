@@ -10,3 +10,15 @@ height: 130px;
 .well {
   font-family: monospace;
 }
+.java{
+  display: none;
+}
+.php{
+  display: none;
+}
+.ruby{
+  display: none;
+}
+.design{
+  display: none;
+}
