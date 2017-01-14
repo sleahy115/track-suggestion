@@ -7,17 +7,20 @@ $(document).ready(function() {
     var question5Input = $("input#mobile").val();
 
     if (question1Input === "artistic" && question4Input === "look") {
-    $(".design").show();
+    $("#design").show();
     }
     else if (question2Input === "small" && question3Input === "interactive"){
-    $(".ruby").show();
+    $("#ruby").show();
     }
     else if (question2Input === "large" && question3Input === "fixed" ){
-    $(".php").show();
+    $("#php").show();
     }
     else if (question5Input === "yes" && question2Input === "large"){
-    $(".java").show();
+    $("#java").show();
     }
     event.preventDefault();
   });
+  jQuery.readyException = function( error ) {
+  console.error( error );
+  };
 });

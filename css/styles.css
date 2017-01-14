@@ -10,17 +10,33 @@ height: 130px;
 .well {
   font-family: monospace;
 }
-.java{
+#java{
   display: none;
+  font-family: monospace;
+  color:  #009900;
+  font-size: 18px;
+  background-color: #00e600;
 }
-.php{
+#php{
   display: none;
+  font-family: monospace;
+  color:  #009900;
+  font-size: 18px;
+  background-color: #00e600;
 }
-.ruby{
+#ruby{
   display: none;
+  font-family: monospace;
+  color:  #009900;
+  font-size: 18px;
+  background-color: #00e600;
 }
-.design{
+#design{
   display: none;
+  font-family: monospace;
+  color:  #009900;
+  font-size: 18px;
+  background-color: #00e600;
 }
 #questions {
   font-family: monospace;
