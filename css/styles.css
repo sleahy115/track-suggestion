@@ -15,28 +15,40 @@ height: 130px;
   font-family: monospace;
   color:  #009900;
   font-size: 18px;
-  background-color: #00e600;
+  border: 5px;
+  border-color: #003300;
+  border-style: double;
+  background-color: #f2ffe6;
 }
 #php{
   display: none;
   font-family: monospace;
   color:  #009900;
   font-size: 18px;
-  background-color: #00e600;
+  border: 5px;
+  border-color: #003300;
+  border-style: double;
+  background-color: #f2ffe6;
 }
 #ruby{
   display: none;
   font-family: monospace;
   color:  #009900;
   font-size: 18px;
-  background-color: #00e600;
+  border: 5px;
+  border-color: #003300;
+  border-style: double;
+  background-color: #f2ffe6;
 }
 #design{
   display: none;
   font-family: monospace;
   color:  #009900;
   font-size: 18px;
-  background-color: #00e600;
+  border: 5px;
+  border-color: #003300;
+  border-style: double;
+  background-color: #f2ffe6;
 }
 #questions {
   font-family: monospace;

@@ -18,7 +18,10 @@ $(document).ready(function() {
     else if (question5Input === "yes" && question2Input === "large"){
     $("#java").show();
     }
-    event.preventDefault();
+    else if (question5Input === "yes" && question1Input === "artistic"){
+    $("#java").show();
+    }  
+  event.preventDefault();
   });
   jQuery.readyException = function( error ) {
   console.error( error );
