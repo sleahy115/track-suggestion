@@ -50,6 +50,16 @@ height: 130px;
   border-style: double;
   background-color: #f2ffe6;
 }
+#error{
+  display: none;
+  font-family: monospace;
+  color:  #009900;
+  font-size: 18px;
+  border: 5px;
+  border-color: #003300;
+  border-style: double;
+  background-color: #f2ffe6;
+}
 #questions {
   font-family: monospace;
   color:  #009900;

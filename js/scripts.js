@@ -23,10 +23,12 @@ $(document).ready(function() {
     else if (question5Input === "yes" && question1Input === "artistic"){
     $("#java").show();
     }
-    else if (question5Input === "no" && question1Input === "logical"){
+    else if (question5Input === "no" && question1Input === "logical") {
     $("#java").show();
-
-  };
+    }
+    else if (question1Input || question2Input || question3Input || question5Input || question4Input === ""){
+    $("#error").show();
+  }
   jQuery.readyException = function( error ) {
   console.error( error );
   }
