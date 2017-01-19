@@ -1,5 +1,7 @@
 $(document).ready(function() {
   $("#questions form").submit(function(event) {
+    event.preventDefault();
+    $("#questions").hide();
     var question1Input = $("input#artistic").val();
     var question2Input = $("input#small").val();
     var question3Input = $("input#interactive").val();
@@ -20,10 +22,13 @@ $(document).ready(function() {
     }
     else if (question5Input === "yes" && question1Input === "artistic"){
     $("#java").show();
-    }  
-  event.preventDefault();
-  });
+    }
+    else if (question5Input === "no" && question1Input === "logical"){
+    $("#java").show();
+
+  };
   jQuery.readyException = function( error ) {
   console.error( error );
-  };
+  }
+  });
 });
